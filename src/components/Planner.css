@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field input {
+    margin-right: 1rem;
+    padding: .5rem;
+}
+
+
+.input-field button {
+    background-color: blue;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: .6rem;
+}
+
+.input-field {
+    padding-bottom: 1rem;
+}
+
+.content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    gap: 3rem;
+    line-height: .3rem;
+    font-weight: 600;
+}
+
+.btn button {
+    margin-left: 1rem;
+    padding: .4rem .9rem;
+    background-color: rgb(14, 104, 45);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn .minus-btn {
+    background-color: red;
+}
